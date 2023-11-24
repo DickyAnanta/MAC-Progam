@@ -1,0 +1,53 @@
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+
+@media screen and (min-width: 390px) {
+    .kotak{
+        width: auto;
+        height: 300px;
+        background-color: #fbb13c;
+    }
+    .gambar{
+        position: absolute;
+        left: 100px;
+        top: 85px;
+        width: 100%;
+        max-width: 180px;
+        height: auto;
+    }
+    .judul1{
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .reservasi input{
+        border-color: #fbb13c;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        
+    }
+    .reservasi ::-webkit-input-placeholder{
+        color: #fbb13c;
+        text-align: center;
+    }
+    .produk{
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .coffe{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .card {
+        display: block;
+        margin: 1em;
+    }
+    .cards {
+        width: 250px;
+        display: flex;
+        align-items: center;
+    }
+}
