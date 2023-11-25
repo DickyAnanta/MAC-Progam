@@ -15,7 +15,7 @@
 
     <div class="reservasi mt-3">
       <div class="input-group flex-nowrap">
-        <input type="text" class="form-control" placeholder="Reservasi Tempat" aria-label="Username" aria-describedby="addon-wrapping">
+        <input type="text" class="form-control" placeholder="Reservasi Tempat" aria-label="Reservasi" aria-describedby="addon-wrapping">
       </div>
     </div>
 
@@ -23,36 +23,65 @@
       <span>Produk</span>
     </div>
 
-    <div class="coffe mt-4">
-      <span>Coffe</span>
-      <!-- start box -->
-      <div class="cards">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-6 d-flex justify-content-center">
-              <div class="card" style="width: 20rem;">
-                <img class=" card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Heading 1</h5>
-                  <p class="card-text">some text</p>
-                  <a href="#" class="btn btn-primary">a button</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 d-flex justify-content-center">
-              <div class="card" style="width: 20rem;">
-                <img class=" card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Heading 2</h5>
-                  <p class="card-text">some text</p>
-                  <a href="#" class="btn btn-primary">a button</a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- coffe -->
+    <div class="konten" id="coffe">
+      <h4 class="coffe mt-4">Coffe</h4>
+      <div class="sec">
+        <div class="box bg-light shadow-sm">
+          <img src="/assets/img/coffe.jpeg" alt="">
+          <h4 class="mb-3">Coffe Late</h4>
+          <p class="d-flex justify-content-between pl-2 pr-2">RP25.000<span>Stok 5</span></p>
+          <a class="btn btn-sm btn-warning" href="">Order</a>
+        </div>
+        <div class="box bg-light shadow-sm">
+          <img src="/assets/img/coffe.jpeg" alt="">
+          <h4 class="mb-3">Americano</h4>
+          <p class="d-flex justify-content-between pl-2 pr-2">RP15.000<span>Stok 5</span></p>
+          <a class="btn btn-sm btn-warning" href="">Order</a>
+        </div>
+        <div class="box bg-light shadow-sm">
+          <img src="/assets/img/coffe.jpeg" alt="">
+          <h4 class="mb-3">Coffe Mix</h4>
+          <p class="d-flex justify-content-between pl-2 pr-2">RP20.000<span>Stok 5</span></p>
+          <a class="btn btn-sm btn-warning" href="">Order</a>
+        </div>
+        <div class="box bg-light shadow-sm">
+          <img src="/assets/img/coffe.jpeg" alt="">
+          <h4 class="mb-3">Es teh</h4>
+          <p class="d-flex justify-content-between pl-2 pr-2">RP50.000<span>Stok 5</span></p>
+          <a class="btn btn-sm btn-warning" href="">Order</a>
         </div>
       </div>
-      <!-- end box -->
+    </div>
+
+    <div class="konten" id="coffe">
+      <h4 class="coffe mt-4">Coffe</h4>
+      <div class="sec">
+        <div class="box bg-light shadow-sm">
+          <img src="/assets/img/coffe.jpeg" alt="">
+          <h4 class="mb-3">Coffe Late</h4>
+          <p class="d-flex justify-content-between pl-2 pr-2">RP25.000<span>Stok 5</span></p>
+          <a class="btn btn-sm btn-warning" href="">Order</a>
+        </div>
+        <div class="box bg-light shadow-sm">
+          <img src="/assets/img/coffe.jpeg" alt="">
+          <h4 class="mb-3">Americano</h4>
+          <p class="d-flex justify-content-between pl-2 pr-2">RP15.000<span>Stok 5</span></p>
+          <a class="btn btn-sm btn-warning" href="">Order</a>
+        </div>
+        <div class="box bg-light shadow-sm">
+          <img src="/assets/img/coffe.jpeg" alt="">
+          <h4 class="mb-3">Coffe Mix</h4>
+          <p class="d-flex justify-content-between pl-2 pr-2">RP20.000<span>Stok 5</span></p>
+          <a class="btn btn-sm btn-warning" href="">Order</a>
+        </div>
+        <div class="box bg-light shadow-sm">
+          <img src="/assets/img/coffe.jpeg" alt="">
+          <h4 class="mb-3">Es teh</h4>
+          <p class="d-flex justify-content-between pl-2 pr-2">RP50.000<span>Stok 5</span></p>
+          <a class="btn btn-sm btn-warning" href="">Order</a>
+        </div>
+      </div>
     </div>
   </div>
 
